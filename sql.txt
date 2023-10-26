@@ -1,0 +1,6 @@
+pip install Flask-SQLAlchemy mysql-connector-python
+
+CREATE DATABASE PasswordManager;
+CREATE USER 'admin'@'localhost' IDENTIFIED BY 'P$wrdmgr99';
+GRANT ALL PRIVILEGES ON PasswordManager.* TO 'admin'@'localhost';
+FLUSH PRIVILEGES;
