@@ -1,0 +1,4 @@
+make sure vscode is using correct interpreter, will have to set path C:\Users\msc42\Documents\Flask Project\.env\Scripts\python.exe
+pip install pymsql
+flask run
+go to http://127.0.0.1:5000/
